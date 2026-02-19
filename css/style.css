@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chicle&display=swap");
+
+/* Variables */
+:root {
+  --main-color: #041d56;
+  /* --main-color: #c16632; */
+  --secondary-color: #266ca9;
+  --gray-color: #e0e8e8;
+}
+
+/* Root */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.6rem;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-weight: 400; */
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 2em;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ol li,
+ul li {
+  line-height: 2em;
+}
+
+.under {
+  text-decoration: underline;
+}
+
+.pl-1 {
+  padding-left: 20px;
+}
+
+/* Utility Container */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  padding: 13px 40px;
+}
+
+.btn-dark {
+  background: var(--main-color);
+  color: #fff;
+}
+
+.txt-large {
+  font-size: 18px;
+}
+
+.txt-small {
+  font-size: 12px;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-dark {
+  font-weight: 600;
+}
+
+.txt-light {
+  color: #fff;
+}
+
+.txt-secondary {
+  color: #1c4b46;
+}
+
+.p-50 {
+  padding: 50px 0;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.bk-gray {
+  background: var(--gray-color);
+}
+
+.font-chicle {
+  font-family: "Chicle", cursive;
+}
+
+.display-1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.display-2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.display-3 {
+  font-size: 1.3rem;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+.display-4 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.high {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.bk-secondary {
+  background-color: #f2f1f0;
+  padding: 40px 0;
+}
+
+.bk-third {
+  background-color: #50898f;
+  color: #fff;
+  padding: 5px;
+}
+
+/* Navbar */
+.navbar {
+  height: 100%;
+  background: var(--main-color);
+  padding: 15px 0;
+}
+
+.navbar .logo {
+  display: flex;
+}
+
+.navbar .logo a {
+  font-size: 18px;
+  /* font-weight: 300; */
+  padding-top: 5px;
+  letter-spacing: 1px;
+}
+
+/* .navbar .logo img {
+  height: 40px;
+  padding-right: 5px;
+} */
+
+.navbar .current {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 20px 8px;
+  font-size: 14px;
+}
+
+/* Showcase */
+#showcase {
+  padding: 120px 0;
+  background: var(--secondary-color);
+  text-align: center;
+}
+
+#showcase img {
+  padding: 10px 0;
+  height: 400px;
+}
+
+/* Advisory */
+#advisory img {
+  padding-bottom: 40px;
+}
+
+/* Lesson */
+#services,
+#fees {
+  padding-bottom: 500px;
+}
+
+.lesson-list {
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+.lesson-list li {
+  line-height: 1.5;
+}
+
+/* Boolean */
+#boolean .center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Book List */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* Thank you */
+#thank-you a {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+/* Footer */
+#main-footer {
+  background: var(--main-color);
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+/* Navbar Internal */
+.navbar-internal {
+  background: #000;
+  padding-top: 5px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.d-flex img {
+  height: 30px;
+}
+
+.d-flex li {
+  padding: 6px;
+}
