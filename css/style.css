@@ -40,6 +40,10 @@ h4 {
   font-size: 1.25em;
 }
 
+h5 {
+  font-size: 18px;
+}
+
 h1,
 h2,
 h3,
@@ -81,6 +85,14 @@ ul li {
   padding: 0 20px;
 }
 
+.container-menu {
+  margin: auto;
+  max-width: 1100px;
+  /* overflow: auto; */
+  padding: 0 20px;
+}
+
+
 .btn {
   display: inline-block;
   border: none;
@@ -88,10 +100,22 @@ ul li {
   padding: 13px 40px;
 }
 
+.btn-small {
+  padding: 10px 18px;
+  margin: 0 20px;
+}
+
 .btn-dark {
   background: var(--main-color);
   color: #fff;
 }
+
+.btn-light {
+  background: #ffc038;
+  color: #fff;
+}
+
+
 
 .txt-large {
   font-size: 18px;
@@ -171,46 +195,53 @@ ul li {
 }
 
 /* Navbar */
-.navbar {
+/* .navbar {
   height: 100%;
   background: var(--main-color);
   padding: 15px 0;
-}
+} */
 
-.navbar .logo {
+/* .navbar .logo {
   display: flex;
-}
+} */
 
-.navbar .logo a {
+/* .navbar .logo a {
   font-size: 18px;
-  /* font-weight: 300; */
   padding-top: 5px;
   letter-spacing: 1px;
-}
+} */
 
 /* .navbar .logo img {
   height: 40px;
   padding-right: 5px;
 } */
 
-.navbar .current {
-  text-decoration: underline;
-  color: #fff;
-}
 
-.navbar a {
-  color: #fff;
-}
 
-.navbar .container {
+/* .navbar a {
+  color: #fff;
+} */
+
+/* .navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
+} */
+
+.id-navbar,
+header,
+.dropdown-menu {
+  background: var(--main-color)!important;
 }
 
-.navbar ul {
-  display: flex;
+
+.navbar a {
+  color: #fff!important;
+}
+
+.navbar a:hover {
+  background: var(--secondary-color);
 }
 
 .navbar ul li {
@@ -308,4 +339,44 @@ tr:nth-child(even) {
 
 .d-flex li {
   padding: 6px;
+}
+
+/* Warning Flex */
+.w-flex {
+  display: flex;
+}
+
+.warning-content-text {
+  padding-left: 20px;
+}
+
+.warning-content {
+  background: #a8c4dc;
+  padding: 30px 30px 20px 30px;
+  margin-top: 40px;
+}
+
+/* Download */
+.download-flex {
+  display: flex;
+  gap: 5px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.download-flex-box h5 {
+  padding-top: 10px;
+}
+
+.download-flex-box p {
+  margin: 5px 0 15px 0;
+}
+
+.download-flex-box img {
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown menu */
+.dropdown {
+  z-index: 20;
 }
