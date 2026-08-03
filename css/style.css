@@ -92,7 +92,6 @@ ul li {
   padding: 0 20px;
 }
 
-
 .btn {
   display: inline-block;
   border: none;
@@ -114,8 +113,6 @@ ul li {
   background: #ffc038;
   color: #fff;
 }
-
-
 
 .txt-large {
   font-size: 18px;
@@ -216,8 +213,6 @@ ul li {
   padding-right: 5px;
 } */
 
-
-
 /* .navbar a {
   color: #fff;
 } */
@@ -232,12 +227,11 @@ ul li {
 .id-navbar,
 header,
 .dropdown-menu {
-  background: var(--main-color)!important;
+  background: var(--main-color) !important;
 }
 
-
 .navbar a {
-  color: #fff!important;
+  color: #fff !important;
 }
 
 .navbar a:hover {
@@ -260,6 +254,11 @@ header,
 #showcase img {
   padding: 10px 0;
   height: 400px;
+}
+
+#showcase ul li {
+  list-style: none;
+  color: #fff;
 }
 
 /* Advisory */
